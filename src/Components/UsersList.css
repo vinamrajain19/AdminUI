@@ -1,0 +1,99 @@
+.container {
+  width: 100%;
+  text-align: center;
+}
+.container input {
+  width: 65%;
+}
+
+.table {
+  width: 65%;
+  margin: auto;
+
+  /* display: flex; */
+}
+.table tr {
+  width: 80%;
+  border: 1px solid grey;
+}
+.table tr:hover {
+  background-color: lightgray;
+}
+.table tr th {
+  width: 28%;
+  border: 1px solid grey;
+}
+.pagination {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  gap: 2%;
+  text-decoration: none;
+  list-style: none;
+  margin: auto;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  gap: 0.3%;
+}
+@media only screen and (min-width: 400px) {
+  .container {
+    width: 100%;
+    text-align: center;
+  }
+  .container input {
+    width: 65%;
+  }
+
+  .table {
+    width: 65%;
+    margin: auto;
+
+    /* display: flex; */
+  }
+  .pagination {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 2%;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 100%;
+    text-align: center;
+  }
+  .container input {
+    width: 65%;
+  }
+
+  .table {
+    width: 65%;
+    margin: auto;
+
+    /* display: flex; */
+  }
+  .pagination {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 2%;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    cursor: pointer;
+  }
+}
+
+.pagination .active a {
+  margin: 0px 2px;
+  background-color: #fff; /* Set the background color to transparent for the active page link */
+  border: 2px solid rgb(134, 125, 125); /* Add a border to the active page link if needed */
+  color: #333; /* Set the text color for the active page link */
+}
